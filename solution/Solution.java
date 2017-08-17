@@ -14,7 +14,7 @@ public class Solution {
     
 public static void main(String[] args) {  
 Scanner in = new Scanner(System.in);
-System.out.println("How many searches: ");
+System.out.println("How many searches: "); //Tester
 int n = in.nextInt();
 
 
@@ -24,9 +24,9 @@ Map<String, Long> phoneBook = new HashMap<>();
 
 for (int i=0; i < n; i++)
     {
-        System.out.println("name: ");
+        System.out.println("name: "); // Tester
         String name = in.next();
-        System.out.println("phone #: ");
+        System.out.println("phone #: "); //Tester
         long phoneNumber = in.nextLong();
         phoneBook.put(name, phoneNumber);
     }
